@@ -1,0 +1,17 @@
+# Environment
+.env
+venv/
+__pycache__/
+
+# Credentials
+credentials.json
+token.json
+processed_emails.json
+
+# Logs
+*.log
+Logs/*.json
+
+# OS
+.DS_Store
+Thumbs.db
