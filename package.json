@@ -1,0 +1,9 @@
+{
+  "name": "ai-employee-silver",
+  "version": "1.0.0",
+  "description": "Silver Tier AI Employee MCP Servers",
+  "dependencies": {
+    "nodemailer": "^6.9.0",
+    "@modelcontextprotocol/sdk": "^0.1.0"
+  }
+}

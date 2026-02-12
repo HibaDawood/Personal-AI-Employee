@@ -6,7 +6,7 @@
       {
         "id": "cac79d7bc2effbd0",
         "type": "tabs",
-        "dimension": 45.81673306772908,
+        "dimension": 47.50996015936255,
         "children": [
           {
             "id": "e78fb35ece72654c",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Dashboard"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "a214f7469d5dca86",
         "type": "tabs",
-        "dimension": 54.18326693227091,
+        "dimension": 52.49003984063745,
         "children": [
           {
             "id": "ef3de5333c551d99",
@@ -198,22 +198,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "ef3de5333c551d99",
+  "active": "e78fb35ece72654c",
   "lastOpenFiles": [
-    "Welcome.md",
-    "BRONZE_TIER_CHECKLIST.md",
-    "Logs/orchestrator_20260212.log",
-    "Logs/filesystem_watcher_20260212.log",
-    "Logs/gmail_watcher_20260212.log",
-    "orchestrator.py",
-    "filesystem_watcher.py",
-    "requirements.txt",
-    "gmail_watcher.py",
-    "README.md",
-    "Company_Handbook.md",
+    "agent_skills/task_planner/SKILL.md",
+    "Needs_Action/FILE_validation_test_1770922739_txt.md",
+    "Needs_Action/validation_test_1770922739.txt",
+    "Drop_Zone/validation_test_1770922739.txt",
+    "Needs_Action/FILE_validation_test_1770922451_txt.md",
+    "Needs_Action/validation_test_1770922451.txt",
+    "Drop_Zone/validation_test_1770922451.txt",
+    "Drop_Zone/validation_test_1770922378.txt",
+    "Rejected",
+    "Approved",
+    "Pending_Approval",
+    "Plans",
+    "SILVER_TIER_REPORT.md",
+    "Drop_Zone/validation_test_1770921991.txt",
+    "agent_skills/linkedin_poster/SKILL.md",
+    "agent_skills/email_handler/SKILL.md",
+    "agent_skills/approval_checker/SKILL.md",
     "Dashboard.md",
-    "Drop_Zone",
-    "Logs",
-    "Done"
+    "Welcome.md",
+    "SILVER_TIER_COMPLETE.md",
+    "SCHEDULING_SETUP.md",
+    "BRONZE_TIER_CHECKLIST.md",
+    "README.md",
+    "Company_Handbook.md"
   ]
 }

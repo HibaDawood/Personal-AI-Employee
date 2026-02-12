@@ -12,6 +12,12 @@ processed_emails.json
 *.log
 Logs/*.json
 
+# WhatsApp Session
+whatsapp_session/
+
+# LinkedIn Session
+linkedin_session/
+
 # OS
 .DS_Store
 Thumbs.db

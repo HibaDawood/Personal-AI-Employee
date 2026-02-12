@@ -1,0 +1,32 @@
+{
+  "tasks": {
+    "orchestrator_check": {
+      "interval": "2m",
+      "command": "python orchestrator.py --check"
+    },
+    "dashboard_update": {
+      "interval": "5m", 
+      "command": "python orchestrator.py --update-dashboard"
+    },
+    "watcher_health": {
+      "interval": "30m",
+      "command": "python orchestrator.py --health-check"
+    },
+    "linkedin_check": {
+      "interval": "6h",
+      "command": "python linkedin_integration.py --check"
+    },
+    "morning_brief": {
+      "time": "08:00",
+      "command": "python orchestrator.py --morning-brief"
+    },
+    "evening_summary": {
+      "time": "18:00", 
+      "command": "python orchestrator.py --evening-summary"
+    },
+    "weekly_review": {
+      "time": "sunday 20:00",
+      "command": "python orchestrator.py --weekly-review"
+    }
+  }
+}

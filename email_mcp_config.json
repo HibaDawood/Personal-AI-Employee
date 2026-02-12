@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "email": {
+      "command": "node",
+      "args": ["email_mcp_server.js"],
+      "env": {
+        "GMAIL_USER": "from .env",
+        "GMAIL_APP_PASSWORD": "from .env"
+      }
+    }
+  }
+}
