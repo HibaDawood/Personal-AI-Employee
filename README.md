@@ -1,27 +1,15 @@
-# AI Employee - Bronze Tier Setup
+# 🤖 AI Employee — Enterprise Automation Workspace
 
-## Welcome
-This is your AI Employee Bronze Tier implementation. This system is designed to help automate routine tasks and improve productivity.
+A robust, enterprise-grade Multi-Agent AI Employee architecture engineered to execute continuous background automation, cross-platform communication monitoring, and autonomous task processing. The system implements a strict tier-based compliance framework, evolving from structured filesystem tracking (Bronze Tier) to fully autonomous scheduling and communication layers (Silver Tier).
 
-## Getting Started
-1. Review the Company_Handbook.md for rules and guidelines
-2. Monitor the Inbox folder for new tasks
-3. Process items in Needs_Action folder
-4. Move completed items to Done folder
-5. Log all activities in the Logs folder
+---
 
-## Folders Overview
-- **Inbox**: New tasks and items to review
-- **Needs_Action**: Items requiring processing
-- **Done**: Completed tasks
-- **Logs**: Activity and system logs
-- **Drop_Zone**: Temporary folder for file uploads
+## 🎯 Key Features & Framework Capabilities
 
-## Basic Operations
-- Check Inbox regularly for new items
-- Follow the rules in Company_Handbook.md
-- Update Dashboard.md with current status
-- Maintain clean folder structure
-
-## Support
-For issues or questions, consult the handbook or escalate to your supervisor.
+* **Multi-Channel Background Watchers:** Continuous event-driven monitoring across core communication layers:
+  * **Gmail Observer (`gmail_watcher.py`):** Parses incoming emails, filters actionable requests, and stages them for processing.
+  * **WhatsApp & LinkedIn Integration:** Automates payload extraction and schedules context-aware interaction streams.
+  * **Filesystem Automation (`filesystem_watcher.py`):** Real-time monitoring of localized workplace folders (`Inbox`, `Needs_Action`, `Done`).
+* **Model Context Protocol (MCP):** Powered by a custom Node.js server (`email_mcp_server.js`) providing standardized integration primitives to the central LLM engine.
+* **Cross-Platform Scheduling Engine:** Native deployment manifests (`macos_launchd.plist`, `windows_task_scheduler.xml`, `crontab_setup.sh`) to sustain continuous, headless background execution.
+* **Tier-Based Validation Logs:** Programmatic evaluation suites (`silver_tier_validator.py`) to verify system architecture alignments against corporate compliance structures (`Company_Handbook.md`).
